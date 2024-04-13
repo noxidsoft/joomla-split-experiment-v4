@@ -5,3 +5,7 @@
 ## Justification
 
 Only work with the non-core files that are bespoke software extensions
+
+## Compatibility - last check
+
+Joomla 4.3.4
