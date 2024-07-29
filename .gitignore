@@ -11,7 +11,7 @@ tmp/
 .htaccess
 configuration.php
 htaccess.txt
-index.php
+/index.php
 LICENSE.txt
 README.txt
 robots.txt.dist
