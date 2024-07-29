@@ -8,4 +8,6 @@ Only work with the non-core files that are bespoke software extensions
 
 ## Compatibility - last check
 
-Joomla 4.3.4
+Joomla 5.1.2
+
+```sudo wget Joomla_5-1-2-Stable-Full_Package.zip```
