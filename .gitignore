@@ -4,6 +4,7 @@ api/
 cache/
 images/
 includes/
+installation/
 layouts/
 libraries/
 tmp/
@@ -13,6 +14,7 @@ htaccess.txt
 index.php
 LICENSE.txt
 README.txt
+robots.txt.dist
 robots.txt
 web.config.txt
 
@@ -130,6 +132,7 @@ media/com_contenthistory/
 media/com_cpanel/
 media/com_fields/
 media/com_finder/
+media/com_guidedtours/
 media/com_installer/
 media/com_joomlaupdate/
 media/com_languages/
@@ -153,12 +156,14 @@ media/mod_menu/
 media/mod_multilangstatus/
 media/mod_quickicon/
 media/mod_sampledata/
+media/plg_behaviour_compat/
 media/plg_captcha_recaptcha/
 media/plg_captcha_recaptcha_invisible/
 media/plg_content_vote/
 media/plg_editors_codemirror/
 media/plg_editors_none/
 media/plg_editors_tinymce/
+media/plg_editors-xtd_image/
 media/plg_installer_folderinstaller/
 media/plg_installer_packageinstaller/
 media/plg_installer_urlinstaller/
@@ -171,6 +176,7 @@ media/plg_multifactorauth_fixed/
 media/plg_multifactorauth_totp/
 media/plg_multifactorauth_webauthn/
 media/plg_multifactorauth_yubikey/
+media/plg_quickicon_eos/
 media/plg_quickicon_extensionupdate/
 media/plg_quickicon_joomlaupdate/
 media/plg_quickicon_overridecheck/
@@ -221,8 +227,10 @@ plugins/api-authentication/token/
 plugins/authentication/cookie/
 plugins/authentication/joomla/
 plugins/authentication/ldap/
+plugins/behaviour/compat/
 plugins/behaviour/taggable/
 plugins/behaviour/versionable/
+plugins/captcha/index.html
 plugins/captcha/recaptcha/
 plugins/captcha/recaptcha_invisible/
 plugins/content/confirmconsent/
@@ -292,6 +300,7 @@ plugins/privacy/content/
 plugins/privacy/message/
 plugins/privacy/user/
 plugins/quickicon/downloadkey/
+plugins/quickicon/eos/
 plugins/quickicon/extensionupdate/
 plugins/quickicon/joomlaupdate/
 plugins/quickicon/overridecheck/
@@ -299,6 +308,7 @@ plugins/quickicon/phpversioncheck/
 plugins/quickicon/privacycheck/
 plugins/sampledata/blog/
 plugins/sampledata/multilang/
+plugins/schemaorg/
 plugins/system/accessibility/
 plugins/system/actionlogs/
 plugins/system/cache/
@@ -317,6 +327,7 @@ plugins/system/privacyconsent/
 plugins/system/redirect/
 plugins/system/remember/
 plugins/system/schedulerunner/
+plugins/system/schemaorg/
 plugins/system/sef/
 plugins/system/sessiongc/
 plugins/system/shortcut/
@@ -326,9 +337,15 @@ plugins/system/tasknotification/
 plugins/system/updatenotification/
 plugins/system/webauthn/
 plugins/task/checkfiles/
+plugins/task/deleteactionlogs/
 plugins/task/demotasks/
+plugins/task/globalcheckin/
+plugins/task/privacyconsent/
 plugins/task/requests/
+plugins/task/rotatelogs/
+plugins/task/sessiongc/
 plugins/task/sitestatus/
+plugins/task/updatenotification/
 plugins/user/contactcreator/
 plugins/user/joomla/
 plugins/user/profile/
@@ -359,5 +376,3 @@ plugins/index.html
 templates/cassiopeia/
 templates/system/
 templates/index.html
-
-
